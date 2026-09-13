@@ -1,0 +1,58 @@
+.toggleRow {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.toggleBtn {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid var(--color-rule);
+  background: var(--color-paper-raised);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--color-ink-soft);
+  cursor: pointer;
+  text-align: center;
+}
+
+.toggleBtnActive {
+  border-color: var(--color-gold);
+  color: var(--color-ink);
+  background: var(--color-gold-soft);
+  font-weight: 500;
+}
+
+.fieldRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.rpPrefix {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--color-ink-soft);
+}
+
+.percentSuffix {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--color-ink-soft);
+}
+
+.marginInput {
+  flex: 1;
+  border: 1px solid var(--color-rule);
+  background: var(--color-paper-raised);
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 15px;
+}
+
+.helpText {
+  font-size: 12px;
+  color: var(--color-ink-soft);
+  margin: 8px 0 0;
+}

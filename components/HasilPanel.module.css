@@ -1,0 +1,167 @@
+.panel {
+  background: var(--color-paper-raised);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+  padding: 20px 22px 22px;
+}
+
+.panelTitle {
+  font-size: 17px;
+  margin-bottom: 2px;
+}
+
+.panelSubtitle {
+  font-size: 12px;
+  color: var(--color-ink-soft);
+  margin: 0 0 18px;
+}
+
+.skenarioBlock {
+  padding: 16px 0;
+  border-top: 1px solid var(--color-rule);
+}
+
+.skenarioBlock:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.skenarioName {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 12px;
+  color: var(--color-ink);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 3px 0;
+  font-size: 13px;
+}
+
+.rowLabel {
+  color: var(--color-ink-soft);
+}
+
+.rowValue {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--color-ink);
+}
+
+.rowDivider {
+  border: none;
+  border-top: 1px dashed var(--color-rule);
+  margin: 8px 0;
+}
+
+.rowTotal {
+  font-weight: 600;
+}
+
+.rowTotal .rowValue {
+  font-size: 15px;
+}
+
+.hargaJualRow {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: var(--color-gold-soft);
+  border-radius: var(--radius-sm);
+}
+
+.hargaJualRow .rowLabel {
+  color: var(--color-ink);
+  font-weight: 500;
+}
+
+.hargaJualRow .rowValue {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.labaValue {
+  color: var(--color-teal);
+}
+
+.bepBox {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+}
+
+.bepBoxTercapai {
+  background: var(--color-teal-soft);
+  color: var(--color-teal);
+}
+
+.bepBoxBelum {
+  background: var(--color-red-soft);
+  color: var(--color-red);
+}
+
+.bepBoxTitle {
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.compareTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.compareTable th {
+  text-align: right;
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--color-ink-soft);
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.compareTable th:first-child {
+  text-align: left;
+}
+
+.compareTable td {
+  text-align: right;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--color-rule);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.compareTable td:first-child {
+  text-align: left;
+  font-family: var(--font-body);
+}
+
+.emptyState {
+  font-size: 13px;
+  color: var(--color-ink-soft);
+  font-style: italic;
+  padding: 12px 0;
+}
+
+.printBtn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 11px;
+  background: var(--color-ink);
+  color: var(--color-paper);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.printBtn:hover {
+  background: #2f3c4d;
+}

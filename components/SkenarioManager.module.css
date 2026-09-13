@@ -1,0 +1,66 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  background: var(--color-paper-raised);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cardName {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 2px;
+  color: var(--color-ink);
+}
+
+.cardEstimasi {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.cardEstimasiInput {
+  width: 80px;
+  border: 1px solid var(--color-rule);
+  background: white;
+  padding: 6px 8px;
+  border-radius: var(--radius-sm);
+  text-align: right;
+  font-size: 14px;
+}
+
+.cardEstimasiLabel {
+  font-size: 12px;
+  color: var(--color-ink-soft);
+  white-space: nowrap;
+}
+
+.removeBtn {
+  border: none;
+  background: transparent;
+  color: var(--color-ink-soft);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.removeBtn:hover {
+  color: var(--color-red);
+  background: var(--color-red-soft);
+}
